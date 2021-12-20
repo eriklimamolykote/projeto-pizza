@@ -1,27 +1,523 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Erik's Pizza</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main-page.css">
-        <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
-        <style>
-            body, h1, h2, h3, h4, h5, h6 { font-family: "Super Mario 256", sans-serif }
-        </style>
-    </head>
-    <body>
-        <!-- Start Content -->
-        <div id="home" class="w3-content">
 
-            <!-- Navbar (Sits on side)-->
-            <div id="w3-top w3-bar w3-xlarge w3-black w3-opacity-min">
-                <a href="#home" class="w3-bar-item w3-button">HOME</a>
-                <a href="#home" class="w3-bar-item w3-button">CARDÁPIO</a>
-                <a href="#home" class="w3-bar-item w3-button">SOBRE</a>
-                <a href="#home" class="w3-bar-item w3-button">CONTATO</a>
+<html>
+
+        <head>
+
+            <meta charset="UTF-8">
+
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+            <!-- mobile metas -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+            <!-- site metas -->
+            <title>Erik's Pizza</title>
+
+            <meta name="keywords" content="">
+
+            <meta name="description" content="">
+
+            <meta name="author" content="">
+
+            <!-- bootstrap css -->
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+
+            <!-- style css -->
+            <link rel="stylesheet" href="css/style.css">
+
+            <!-- Responsive -->
+            <link rel="stylesheet" href="css/responsive.css">
+
+            <!-- Scrollbar Custom CSS -->
+            <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+            <!-- Tweaks for olders IEs -->
+            <!-- [if lt IE 9]>
+                <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+                <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+        </head>
+        <!-- body -->
+        <body class="main-layout">
+
+            <!-- loader -->
+            <div class="loader_bg">
+
+                <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+
             </div>
+            <!-- end loader -->
+            <!-- header -->
+            <header id="home">
+
+                <!-- header inner -->
+                <div class="header">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+
+                                <div class="full">
+
+                                    <div class="center-desk">
+
+                                        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+
+                                <div class="menu-area">
+
+                                    <div class="limit-box">
+
+                                        <nav class="main-menu">
+
+                                            <ul class="menu-area-main">
+
+                                                <li class="active"><a href="#home">HOME</a></li>
+
+                                                <li class="active"><a href="#about">SOBRE</a></li>
+
+                                                <li class="active"><a href="#menu">CARDÁPIO</a></li>
+
+                                                <li class="active"><a href="#contact">CONTATO</a></li>
+
+                                            </ul>
+
+                                        </nav>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- end header inner -->
+
+            </header>
+
+            <!-- end header -->
+
+            <section class="slider_section">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <div class="full">
+
+                                <h1><strong class="cur">Melhor</strong><br>Pizza</h1>
+
+                                    <p>Contrário à crença popular, Lorem Ipsum não é simplesmente um texto qualquer.
+                                        Possui raízes numa peça da literatura latina clássica.</p>
+
+                                    <div class="button_section"><a class="main_bt" href="#">Peça já a sua</a></div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="full text_align_center">
+
+                                <img class="slide_img" src="images/slider_img.png" alt="#" />
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- about -->
+            <div id="about" class="about layout_padding">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <img class="img-responsive" src="images/about_img.png" alt="#" />
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="heading margin_top_30">
+
+                                <h2>Sobre a pizzaria</h2>
+
+                            </div>
+
+                            <div class="full margin_top_20">
+
+                                <p>Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto qualquer. 
+                                    Ele possui raízes numa peça de teatro da literatura latina clássica. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip exipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do 
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                            </div>
+
+                            <div class="full margin_top_30">
+
+                                <a class="main_bt" href="#">Leia mais</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- end about -->
+
+            <!-- section -->
+            <div id="menu" class="section dark_bg layout_padding left_white">
+
+                <div class="container">
+
+                    <div class="row">
+
+                    <div class="col-md-12">
+
+                            <div class="heading full text_align_center">
+
+                                <h2 class="white_font full text_align_center">Nosso cardápio</h2>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                    <div class="col-md-4 margin_top_30">
+
+                            <div class="full fr">
+
+                                <img class="img-responsive" src="images/f1.png" alt="#" />
+
+                            </div>
+
+                            <div class="full text_align_center">
+
+                                <h3 class="white_font">Calabresa<br><strong class="theme_blue">Pizza tradicional com 
+                                    calabresa, azeitonas, cebola e queijo muzzarela assada em forno à lenha
+                                </strong></h3>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 margin_top_30">
+
+                            <div class="full fr">
+
+                                <img class="img-responsive" src="images/f2.png" alt="#" />
+
+                            </div>
+
+                            <div class="full text_align_center">
+
+                                <h3 class="white_font">Portuguesa<br><strong class="theme_blue">Pizza tradicional com 
+                                    polpa de tomate, cebola, alho, orégano, chouriço, azeitonas e queijo muzzarela
+                                </strong></h3>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 margin_top_30">
+
+                            <div class="full fr">
+
+                                <img class="img-responsive" src="images/f3.png" alt="#" />
+
+                            </div>
+
+                            <div class="full text_align_center">
+
+                                <h3 class="white_font">Bacon<br><strong class="theme_blue">Pizza salgada com 
+                                    bacon frito, alho, cebola e queijo muzzarela
+                                </strong></h3>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- end section -->
+
+            <!-- section -->
+        <div class="section layout_padding">
+
+            <div class="container">
+
+                <div class="row">
+
+                <div class="col-md-6">
+
+                        <div class="full main_heading_1">
+
+                            <h2>Fresh Lemon</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing el sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure doloreprehenderin </p>
+
+                        </div> 
+
+                        <div class="full margin_top_30">
+
+                            <a class="main_bt" href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 margin_top_30 padding_right_0">
+
+                        <div class="full">
+
+                            <img src="images/green_fr.png" alt="#" />
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+        <!-- end section -->
+
+        <!-- section -->
+        <div id="blog" class="section dark_bg layout_padding right_white">
+
+            <div class="container">
+
+                <div class="row">
+
+                <div class="col-md-12">
+
+                        <div class="heading full text_align_center">
+
+                            <h2 class="white_font full text_align_center">Contato</h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+
+                <div class="col-md-4 margin_top_30">
+
+                        <div class="full" style="overflow: hidden;">
+
+                        <div class="full bl">
+
+                            <img class="img-responsive" src="images/blog1.png" alt="#" />
+
+                        </div>
+
+                        <div class="full blog_blue text_align_center">
+
+                            <h5 class="white_font">Bla Bla Bla Bla Bla Bla Bla Bla...</h3>
+
+                            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+
+                        </div> 
+
+                        </div> 
+
+                    </div>
+
+                    <div class="col-md-4 margin_top_30">
+
+                        <div class="full" style="overflow: hidden;">
+
+                        <div class="full bl">
+
+                            <img class="img-responsive" src="images/blog2.png" alt="#" />
+
+                        </div> 
+
+                        <div class="full blog_blue text_align_center">
+
+                            <h5 class="white_font">Post by David Mark 27/07/2019</h3>
+
+                            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 margin_top_30">
+
+                        <div class="full" style="overflow: hidden;">
+
+                        <div class="full bl">
+
+                            <img class="img-responsive" src="images/blog3.png" alt="#" />
+
+                        </div> 
+
+                        <div class="full blog_blue text_align_center">
+
+                            <h5 class="white_font">Bla Bla Bla Bla Bla Bla Bla Bla...</h3>
+
+                            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+
+                        </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end section -->
+
+        <!-- footer -->
+        <footer>
+
+            <div class="footer layout_padding">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+
+                            <h3>Nosso endereço</h3>
+
+                            <p>Endereço qualquer de não sei onde</p>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+
+                            <h3>Páginas</h3>
+
+                            <p>
+
+                                <a href="#home">HOME</a>
+
+                                <a href="#about">SOBRE</a>
+
+                                <a href="menu">CARDÁPIO</a>
+
+                                <a href="#contact">CONTATO</a>
+
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+
+                            <h3>Postagem recente</h3>
+
+                            <p><span><img src="images_f_b1.png"></span>consectetur adipisc elit, <br>sed do 
+                                eiusmod</span></p>
+
+                            <p class="margin_top_20"><span><img src="images_f_b2.png"></span><span>consectetur 
+                                adipisc elit,<br>sed do eiusmod</span></p>
+
+                            <p class="margin_top_20"><span><img src="images_f_b3.png"></span><span>consectetur 
+                                adipisc elit,<br>sed do eiusmod</span></p>
+
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+
+                            <h3>Newsletter</h3>
+
+                            <p>
+
+                                <form>
+
+                                    <input type="text" name="email" placeholder="Insira seu e-mail" />
+
+                                    <button>Enviar</button>
+
+                                </form>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <div class="container">
+
+                <p>Copyright 2021 By Erik Lima</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- end footer -->
+
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+
+    <script src="js/plugin.js"></script>
+
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
     </body>
+
 </html>
