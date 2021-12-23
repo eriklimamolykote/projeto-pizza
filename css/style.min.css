@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(30, 43, 77);
+}
+
+h2.text-center {
+    font-family: "Super Mario 256", sans-serif;
+    color: rgb(120, 154, 192);
+}
+
+label.label {
+    color: #fff;
+}
+
+input#username.input, input#password.input {
+    background-color: #fff;
+    color: #000;
+}
+
+button.button {
+    font-family: "Super Mario 256", sans-serif;
+    font-size: larger;
+    background-color: rgb(16, 42, 71);
+    color: #fff;
+    border: 2px solid rgb( 120, 154, 192);
+    width: max-content
+}
+
+span.error-message {
+    font-family: sans-serif;
+    color: rgb(208, 255, 0);
+}
+
